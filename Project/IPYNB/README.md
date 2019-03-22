@@ -6,7 +6,7 @@
 
 Отфильтрованные данные будут находиться в директории ./correct_data/
 
-Запустить MIDItoNPy, чтобы перевести данные в numpy array и сохранить в файле ./npy_data/NPYData.npy
+Запустить MIDItoNPy, чтобы перевести данные в numpy array и сохранить в файле ./npy_data/NPYData.npy (готовые данные: http://bit.do/eMAxV)
 
 Запустить Main для обучения (уже обученные модели: http://bit.do/eMAhu)
 
