@@ -8,6 +8,6 @@
 
 Запустить MIDItoNPy, чтобы перевести данные в numpy array и сохранить в файле ./npy_data/NPYData.npy (готовые данные: http://bit.do/eMAxV)
 
-Запустить Main для обучения (уже обученные модели: http://bit.do/eMAhu)
+Запустить Main для обучения (уже обученные модели: http://bit.do/eMAhu https://drive.google.com/open?id=1JRJuDZzMey-vQ8M3Pa0Atej4DRCsYX8X)
 
 Запустить Generation для генерации
