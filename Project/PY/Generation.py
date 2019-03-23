@@ -35,7 +35,7 @@ class RNN(nn.Module):
         return Variable(torch.zeros(self.n_layers, 1, self.hidden_size)).to(device)
     
 rnn = RNN(416, 1500, 416, 3).to(device)
-rnn.load_state_dict(torch.load("CHOPIN_6HOURS_model.pt", map_location='cpu'))
+rnn.load_state_dict(torch.load("model.pt", map_location='cpu'))
 rnn.eval()
 
 def evaluate(beginning=[15], max_len=1000, temperature=0.8):
@@ -78,13 +78,13 @@ for i in range(0, 126):
     evDictBack[c] = 'time_shift ' + str(i)
     c += 1
 
-print("Seed: ")
+print("Enter your seed: ")
 seed = int(input())
 torch.manual_seed(seed)
 torch.cuda.manual_seed_all(seed)
 random.seed(seed)
 
-print("filename: ")
+print("Enter filename for output: ")
 name = input()
 PATH = name + ".mid"
 song = evaluate([random.randint(1, 400)], 1000, 0.6)
