@@ -10,4 +10,4 @@
 
 Запустить Main для обучения (уже обученные модели: http://bit.do/eMAhu https://drive.google.com/open?id=1JRJuDZzMey-vQ8M3Pa0Atej4DRCsYX8X)
 
-Запустить Generation для генерации
+Запустить Generation для генерации. Передать на вход название файла без расширения и сид.
